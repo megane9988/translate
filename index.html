@@ -1,0 +1,16 @@
+---
+title : 諸々翻訳する
+E-title : Translate
+layout : default
+---
+
+もろもろを翻訳します。初心者の集まりなので翻訳が間違っている場合はあります。ご了承ください。
+
+<section class="core">
+	<h2>Make WordPress Core</h2>
+	<ul class="post-list">
+	{% for core in site.core %}
+	<li class="post-list__title"><a href="{{ site.url }}{{ core.url }}">{{ core.E-title }}</a></li>
+	{% endfor %}
+	</ul>
+</section>

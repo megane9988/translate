@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>{{ page.title }}</title>
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<div class="entry-content">
+	<h1>{{ page.title }}<br>
+		<small>{{ page.E-title }}</small>
+	</h1>
+	{{ content }}
+
+	{% if page.moto %}
+	<hr>
+	<p>元記事 : <a href="{{page.moto}}">{{page.moto}}</a></p>
+	{% endif %}
+
+	{% if page.title != "諸々翻訳する" %}
+	<p><a href="/">TOPに戻る</a></p>
+	{% endif %}
+</div>
+</body>
+</html>
