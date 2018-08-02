@@ -10,19 +10,23 @@
 </head>
 <body>
 <div class="entry-content">
-	<h1>{{ page.title }}<br>
+	<h1>
 		<small>{{ page.E-title }}</small>
+		<br>{{ page.title }}
 	</h1>
 	{{ content }}
 
 	{% if page.moto %}
 	<hr>
-	<p>元記事 : <a href="{{page.moto}}">{{page.moto}}</a></p>
+	<p>元記事 : <a href="{{page.moto}}" target="_blank">{{page.moto}}</a></p>
 	{% endif %}
 
 	{% if page.title != "諸々翻訳する" %}
 	<p><a href="https://megane9988.github.io/translate/">TOPに戻る</a></p>
 	{% endif %}
 </div>
+<footer>
+	<p><a href="https://github.com/megane9988/translate" target="_blank">Github</a></p>
+</footer>
 </body>
 </html>
