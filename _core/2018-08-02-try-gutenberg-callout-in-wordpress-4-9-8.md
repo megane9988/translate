@@ -24,7 +24,7 @@ In WordPress 4.9.8, the callout will be shown to the following users:
 
 - If Gutenberg is not installed or activated, the callout will be shown to Admin users on single sites, and Super Admin users on multisites. (Based on the install_plugins capability.)
 
-> まだグーテンベルグプラグインをインストールしてないもしくは、有効化していない場合は、呼びかけが、シングルサイトの場合は管理者、マルチサイトの場合は特権管理者のみに表示されます。
+> まだグーテンベルグプラグインをインストールしてないもしくは、有効化していない場合は、呼びかけが、シングルサイトの場合は管理者、マルチサイトの場合は特権管理者のみに表示されます。(基本的はプラグインのインストールが可能なユーザー)
 
 - If Gutenberg is installed and activated, the callout will be shown to Contributor users and above. (Based on the edit_posts capability.)
 
