@@ -1,5 +1,3 @@
-2018-11-15-technical-organisation-post-5.0.md
-
 ---
 title : 組織としての5.0への技術的な対応方法
 E-title : Technical organisation post-5.0
